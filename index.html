@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manna Food Service — Homemade Biryani & Gravies</title>
+    <meta name="description"
+        content="Authentic homemade biryani, gravies and combos delivered fresh to your door. Order from Manna Food Service." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ============ HEADER / NAVBAR ============ -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="#home" class="brand">
+                <span class="brand-mark">🍲</span>
+                <span class="brand-name">Manna<span>Food</span></span>
+            </a>
+
+            <!-- CSS-only hamburger toggle (no JS) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <span class="eyebrow">Homemade • Fresh • Delivered</span>
+            <h1>Taste the Warmth of <span class="accent">Home Cooked</span> Food</h1>
+            <p>Authentic biryanis, rich gravies and hearty combos — prepared in our home kitchen with love and delivered
+                hot to your door.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#contact" class="btn btn-ghost">Order on WhatsApp</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>10k+</strong><span>Happy Plates</span></div>
+                <div><strong>4.9★</strong><span>Customer Rating</span></div>
+                <div><strong>30min</strong><span>Avg Delivery</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section id="categories" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow dark">What We Serve</span>
+                <h2>Our Categories</h2>
+                <p>Pick a flavor — every dish is freshly cooked to order.</p>
+            </div>
+
+            <div class="category-grid">
+                <article class="category-card">
+                    <div class="cat-img"
+                        style="background-image:url('images/category_1.jpg')">
+                    </div>
+                    <div class="cat-body">
+                        <h3>🍛 Biryani</h3>
+                        <p>Fragrant basmati layered with spices.</p>
+                    </div>
+                </article>
+
+                <article class="category-card">
+                    <div class="cat-img"
+                        style="background-image:url('images/category_2.avif')">
+                    </div>
+                    <div class="cat-body">
+                        <h3>🥘 Gravies</h3>
+                        <p>Slow-cooked curries bursting with flavor.</p>
+                    </div>
+                </article>
+
+                <article class="category-card">
+                    <div class="cat-img"
+                        style="background-image:url('images/category_3.jpg')">
+                    </div>
+                    <div class="cat-body">
+                        <h3>🍱 Combos</h3>
+                        <p>Complete meals for one or family packs.</p>
+                    </div>
+                </article>
+
+                <article class="category-card">
+                    <div class="cat-img"
+                        style="background-image:url('images/category_4.jpg')">
+                    </div>
+                    <div class="cat-body">
+                        <h3>🥗 Sides</h3>
+                        <p>Raita, salad and crispy papad.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section id="menu" class="section section-alt">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow dark">Today's Specials</span>
+                <h2>Our Menu</h2>
+                <p>Handpicked favorites cooked the homemade way.</p>
+            </div>
+
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/category_1.jpg')">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Chicken Biryani</h3>
+                            <span class="price">₹220</span>
+                        </div>
+                        <p>Long-grain basmati, tender chicken, secret dum spices.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/biriyani.avif')">
+                        <span class="badge hot">Spicy</span>
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Mutton Biryani</h3>
+                            <span class="price">₹320</span>
+                        </div>
+                        <p>Slow-cooked mutton layered with aromatic rice.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/chicken_gravy.jpg')">
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Chicken Gravy</h3>
+                            <span class="price">₹180</span>
+                        </div>
+                        <p>Rich tomato-onion gravy with home masala.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/mutton_gravy.jpg')">
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Mutton Gravy</h3>
+                            <span class="price">₹280</span>
+                        </div>
+                        <p>Tender mutton simmered in spicy thick gravy.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/egg_gravy.avif')">
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Egg Gravy</h3>
+                            <span class="price">₹120</span>
+                        </div>
+                        <p>Boiled eggs in a creamy spiced curry.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/fishgravy.avif')">
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Fish Gravy</h3>
+                            <span class="price">₹150</span>
+                        </div>
+                        <p>Well Cooked Fish Gravy with homemade masala.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-img"
+                        style="background-image:url('images/category_3.jpg')">
+                        <span class="badge">Combo</span>
+                    </div>
+                    <div class="menu-body">
+                        <div class="menu-title">
+                            <h3>Family Combo</h3>
+                            <span class="price">₹599</span>
+                        </div>
+                        <p>Biryani + gravy + sides for the whole family.</p>
+                        <button class="btn btn-primary btn-sm" type="button">Order Now</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+        <div class="container contact-wrap">
+            <div class="contact-info">
+                <span class="eyebrow dark">Get in Touch</span>
+                <h2>Order Your Plate Today</h2>
+                <p>We deliver fresh, homemade meals right to your doorstep.</p>
+                <ul class="info-list">
+                    <li>📞 <strong>+91 98765 43210</strong></li>
+                    <li>💬 WhatsApp orders accepted</li>
+                    <li>📍 Home Delivery Available</li>
+                    <li>🕒 Open daily • 11 AM – 10 PM</li>
+                </ul>
+            </div>
+
+            <form class="contact-form" onsubmit="return false">
+                <h3>Send us a message</h3>
+                <label>
+                    <span>Your Name</span>
+                    <input type="text" placeholder="Enter your name ..." />
+                </label>
+                <label>
+                    <span>Phone Number</span>
+                    <input type="tel" placeholder="+91 ..." />
+                </label>
+                <label>
+                    <span>Your Order / Message</span>
+                    <textarea rows="4" placeholder="I'd like to order..."></textarea>
+                </label>
+                <button type="button" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="brand-name">Manna<span>Food</span></h3>
+                <p>Homemade meals, served with love.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="WhatsApp">💬</a>
+                    <a href="#" aria-label="YouTube">▶️</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2026 Manna Food Service. All rights reserved.</div>
+    </footer>
+
+</body>
+
+</html>
