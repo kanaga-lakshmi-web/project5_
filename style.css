@@ -493,6 +493,10 @@ h4 {
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow-sm);
     border-left: 4px solid var(--orange);
+    width:100%;
+    max-width:100%;
+    min-height:0;
+    overflow-wrap:break-word;
 }
 
 .contact-form {
@@ -524,6 +528,10 @@ h4 {
 
 .contact-form input,
 .contact-form textarea {
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    box-sizing:border-box;
     font-family: inherit;
     font-size: 15px;
     padding: 12px 14px;
